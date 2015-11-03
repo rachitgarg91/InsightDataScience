@@ -1,7 +1,7 @@
 #InsightDataScience
 
 ## Run.sh:
-run.sh compiles the two C++ programs (1. & 2.) and then executes them back to back.
+run.sh compiles the two C++ programs (average_degree.cpp and tweets_cleaned.cpp) and then executes them back to back.
 The compilation is done with compiler optimization "-O3". So the run time of the features cannot be called as the runtime of run.sh as it includes both the compilation and execution.
 
 ## Dependencies:
@@ -12,7 +12,8 @@ The code is written in basic C/C++ with almost no prebuilt libraries, so there a
 ###Input: The program reads the file "tweets.txt" located at a relative location of "../tweet_input/tweets.txt".
 The program expects a new tweet on new line in the JSON format, in which length of text is variable.
 
-###Functionality: The program reads a tweet and extracts text and timestamp from the it. 
+###Functionality: 
+The program reads a tweet and extracts text and timestamp from the it. 
 1. It removes all the unicodes from the text.
 2. It also removes all the escape characters, if it is not a unicode to make tweet readable.
 3. It counts number of tweets which had unicodes in them. 
