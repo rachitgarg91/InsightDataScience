@@ -1,4 +1,4 @@
-#InsightDataScience
+#Insight Data Science
 
 ## Run.sh:
 run.sh compiles the two C++ programs (average_degree.cpp and tweets_cleaned.cpp) and then executes them back to back.
@@ -9,7 +9,8 @@ The code is written in basic C/C++ with almost no prebuilt libraries, so there a
 
 ## Feature 1: tweets_cleaned.cpp
 
-###Input: The program reads the file "tweets.txt" located at a relative location of "../tweet_input/tweets.txt".
+###Input: 
+The program reads the file "tweets.txt" located at a relative location of "../tweet_input/tweets.txt".
 The program expects a new tweet on new line in the JSON format, in which length of text is variable.
 
 ###Functionality: 
