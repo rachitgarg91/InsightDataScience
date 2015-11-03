@@ -16,8 +16,8 @@ int main()
 	while(getline(tweets_input,tweet_in))
 	{
 		count=0;
-		text_end = tweet_in.find("\"",109);  // length of text is variable, determine the ending of text by searching for "
-		if (text_end>0)                      // Process the tweet iff the text has ending.
+		text_end = tweet_in.find("\"",109);  		// length of text is variable, determine the ending of text by searching for "
+		if (text_end>0)                      		// Process the tweet iff the text has ending.
 		{
 			tweet_text = tweet_in.substr(109,text_end-109);
 			pos = tweet_text.find("\\");
