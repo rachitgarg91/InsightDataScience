@@ -171,9 +171,7 @@ int main()
 	ifstream tweets_input;
 	FILE * ft2;
 	ft2 = fopen("../tweet_output/ft2.txt","w+");
-	//cleaned_tweets.open("../tweet_output/average.txt");            // open the output file	
 	tweets_input.open("../tweet_input/tweets.txt");  // open the input file
-	//tweets_input.open("../tweet_output/test.txt");  // open the input file
 	map <string, map<string,int> >  graph; // data structure for graph, a map of map, makes searching logn.
 	list<vector<string> > tags;            // data structure for all the tags in 1 minute window. List of vectors. Makes popping/pushing O(1).
 	list<string> timestamps;
